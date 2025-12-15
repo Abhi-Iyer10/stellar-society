@@ -5,6 +5,8 @@ export interface event {
     about: string,
     image: string,
     date: string,
+    location: string,
+    time: string,
     rulebook: {
         structure: string[],
         rules: string[],
